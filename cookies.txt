@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+track.nopaperforms.com	TRUE	/	FALSE	1999999999	AWSALB	+JTUiVlTe1wRTyO/de03swSJO1lpVsUSRO/6xRdwWEHrQli7I0bcnjGloDvUFsEafCm9vWDlIt45gR1xUdRlUiTgPtGYJBEbCheaTFN/hz0echlMoJzLhVD8cyEv
+track.nopaperforms.com	TRUE	/	FALSE	1999999999	AWSALBCORS	+JTUiVlTe1wRTyO/de03swSJO1lpVsUSRO/6xRdwWEHrQli7I0bcnjGloDvUFsEafCm9vWDlIt45gR1xUdRlUiTgPtGYJBEbCheaTFN/hz0echlMoJzLhVD8cyEv
+track.nopaperforms.com	TRUE	/	FALSE	1999999999	SameSite	None
+widgets.nopaperforms.com	TRUE	/	FALSE	1999999999	AWSALB	oI1reXt69AzNI4NaBPkXm5N7Ctrp4oDZZLmH/OeniIjzcqRncmDmiOZl1UDBS0Jd5UUpqZYAFqMKHe4Fw4pqTcT2ft2VWn5x8hQPR3aqCG3usQUzvWWNieO+HUeJ
+widgets.nopaperforms.com	TRUE	/	FALSE	1999999999	AWSALBCORS	oI1reXt69AzNI4NaBPkXm5N7Ctrp4oDZZLmH/OeniIjzcqRncmDmiOZl1UDBS0Jd5UUpqZYAFqMKHe4Fw4pqTcT2ft2VWn5x8hQPR3aqCG3usQUzvWWNieO+HUeJ
+widgets.nopaperforms.com	TRUE	/	FALSE	1999999999	SameSite	None
+
