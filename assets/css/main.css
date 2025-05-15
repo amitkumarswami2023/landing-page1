@@ -29,7 +29,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f3f9ff;
+  --background-color: #e1eefc;
   --surface-color: #ffffff;
 }
 
@@ -793,6 +793,7 @@ section,
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1.5rem;
+  
 }
 
 .hero .hero-content h1 .accent-text {
@@ -2043,11 +2044,12 @@ section,
 }
 
 .faq .faq-container .faq-item .faq-content {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: 0.3s ease-in-out;
+  display: block;
+  max-height: 0;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
   visibility: hidden;
   opacity: 0;
+  padding-top: 0;
 }
 
 .faq .faq-container .faq-item .faq-content p {
@@ -2074,7 +2076,7 @@ section,
 }
 
 .faq .faq-container .faq-active .faq-content {
-  grid-template-rows: 1fr;
+  max-height: 500px;
   visibility: visible;
   opacity: 1;
   padding-top: 10px;
