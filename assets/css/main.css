@@ -672,7 +672,7 @@ section,
 @media (max-width: 992px) {
   .hero .customers-badge {
     position: static;
-    margin: 1rem auto;
+    margin: 1.0rem auto;
     max-width: 250px;
   }
 }
@@ -681,6 +681,7 @@ section,
   position: relative;
   z-index: 1;
   margin-top: 5rem;
+  margin-left: auto;
   /* background-color: var(--surface-color); */
   background: linear-gradient(105deg, #FF3131, #002561);
   border-radius: 20px;
@@ -740,6 +741,9 @@ section,
 @media (max-width: 575px) {
   .hero .stat-item {
     padding: 1.5rem;
+  }
+  .hero .stats-row{
+    margin-left: 1rem;
   }
 }
 
