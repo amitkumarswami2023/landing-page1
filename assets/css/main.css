@@ -29,12 +29,12 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #e1eefc;
+  --background-color: #CBEEF3;
   --surface-color: #ffffff;
 }
 
 .dark-background {
-  --background-color: #0d83fd;
+  --background-color: #DDE9F4;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #409dfd;
@@ -167,7 +167,7 @@ h6 {
 }
 
 .btn-getstarted:hover {
-  background: #eb1b2b;
+  background: #FF3131;
   color: var(--contrast-color);
 }
 
@@ -215,7 +215,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: linear-gradient(260deg, #eb1b2b, #002561);
+  background: linear-gradient(260deg, #FF3131, #002561);
   font-size: 14px;
   position: relative;
 }
@@ -529,7 +529,7 @@ section,
 
 .hero .hero-content h1 .accent-text {
   /* color: var(--accent-color); */
- background: #eb1b2b;
+ background: #FF3131;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
  
@@ -580,7 +580,7 @@ section,
   transition: all 0.3s ease;
 }
 .hero .btn-custom {
- background-color: #eb1b2b;
+ background-color: #FF3131;
   color: var(--contrast-color);
   padding: 0.75rem 2.5rem;
   border-radius: 50px;
@@ -682,7 +682,7 @@ section,
   z-index: 1;
   margin-top: 5rem;
   /* background-color: var(--surface-color); */
-  background: linear-gradient(105deg, #eb1b2b, #002561);
+  background: linear-gradient(105deg, #FF3131, #002561);
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   padding-bottom: 2rem;
@@ -1073,7 +1073,7 @@ section,
 .features-cards {
   --default-color: #555;
   --heading-color: #333;
-  background: linear-gradient(260deg, #eb1b2b, #002561);
+  background: linear-gradient(260deg, #FF3131, #002561);
 }
 
 .features-cards .feature-box {
@@ -2266,7 +2266,7 @@ section,
   bottom: 0;
   z-index: -1;
   border-radius: 8px;
-  background: linear-gradient(to right, #002561, #eb1b2b); /* Horizontal gradient */
+  background: linear-gradient(to right, #002561, #FF3131); /* Horizontal gradient */
   padding: 2px; /* Controls the thickness of the border */
   -webkit-mask: 
     linear-gradient(#fff 0 0) content-box, 
@@ -2330,7 +2330,7 @@ padding: 10px 0;
 .card-purple { background-color: #deedfd; }
 
 .placements-overview {
-  background: linear-gradient(260deg, #eb1b2b, #002561);
+  background: linear-gradient(260deg, #FF3131, #002561);
   color: white;
   padding: 2rem;
   display: flex;
@@ -2381,7 +2381,7 @@ padding: 10px 0;
 }
 .custom-btn:hover{
   color: #fff;
-  background: #eb1b2b;
+  background: #FF3131;
   /* border: 1px solid #990000; */
 }
 .placements__slider {
@@ -3087,7 +3087,7 @@ padding: 10px 0;
   font-weight: 400;
 }
  .why__choose__ct__ {
-  background: linear-gradient(260deg, #eb1b2b, #002561);
+  background: linear-gradient(260deg, #FF3131, #002561);
   background-size: cover;
   height: 100%;
 }
@@ -3198,7 +3198,7 @@ padding: 10px 0;
   font-size: 18px;
 }
  .why__choose__CT {
-  background: linear-gradient(260deg, #eb1b2b, #002561);
+  background: linear-gradient(260deg, #FF3131, #002561);
   background-size: cover;
 }
  .why__choose__CT .why__choose__ct__headingText {
