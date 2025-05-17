@@ -9,11 +9,11 @@
   <meta name="description" content>
   <meta name="keywords" content>
    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TBPGMX8');</script>
+})(window,document,'script','dataLayer','GTM-TBPGMX8');</script> -->
 <!-- End Google Tag Manager -->   
 
 
@@ -51,6 +51,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <script src="../code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="assets/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/intl-tel-input/17.0.8/css/intlTelInput.min.css">
+  <!-- Inside <head> -->
+  <style>
+    .accordion-button:not(.collapsed) {
+      background-color: #002561 ! important;
+      color: #fff !important;
+    }
+
+    .accordion-button:focus {
+      box-shadow: none;
+    }
+
+    .accordion-body .row {
+      align-items: center;
+    }
+
+    .program-image {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+
+
+  </style>
   <style>
     .custom-title {
       font-family: "Poppins", sans-serif;
@@ -123,13 +146,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .iti__flag-container {
       margin-right: 10px;
     }
-
-    @media screen and (max-width:465px){
-      .enquiry-f{
-        display: none;
-        visibility: hidden;
-      }
-    }
   </style>
     <style>
       .recruiters-container {
@@ -159,33 +175,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBPGMX8"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div
-      class="header-container container-fluid position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index-2.html"
-        class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/sgtu_naac.png" alt>
-
+  <header id="header" class="header fixed-top">
+    <div class="header-container container-fluid d-flex align-items-center justify-content-between flex-wrap">
+      
+      <a href="index-2.html" class="logo d-flex align-items-center">
+        <img src="assets/img/sgtu_naac.png" alt="SGTU Logo">
       </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <!-- <li><a href="#about">About Us</a></li> -->
-          <!-- <li><a href="#accreditations">Accreditations</a></li> -->
-          <li><a href="#courses">Courses</a></li>
-          <!--<li><a href="#courses">PG Courses</a></li>-->
-          <li><a href="#placements">Placements</a></li>
-          <!-- <li><a href="#footer">Contact Us</a></li> -->
-          <li><a href="#features"></a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <div class="enquiry-f"><a href="#hero" class="btn-getstarted">Enquire Now <i class="fa fa-arrow-circle-right"></i>
-      </a></div>
+      <div class="enquiry-f">
+        <a href="#hero" class="btn-getstarted">Enquire Now <i class="fa fa-arrow-circle-right"></i></a>
+      </div>
 
     </div>
   </header>
@@ -201,15 +200,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="col-lg-6">
             <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
 
-              <h1 class="mb-4" style="color: #002561;">
-                Get <span class="accent-text">Admission </span>Into <br>
-                North India’s <br>
-                Most Trusted <br>
-                BTech Programs
+              <h1 class="mb-4" style="color: #002561;">   
+                <span class="accent-text">Cybersecurity, AI, Cloud </span><br>
+                Learn What Companies <br>
+                Actually Need With Our <br>
+                <span class="accent-text">BCA</span> Programs
               </h1>
               <div class="company-badge mb-4">
                 <i class="bi bi-gear-fill me-2"></i>
-                15+ diverse specialisations offered
+                5 leading specialisations offered
               </div>
 
               <div class="hero-buttons">
@@ -295,7 +294,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="col-md-12">
                 <ul class="feature-list">
                   <li><i class="bi bi-check-circle-fill"></i> Ranked 4th in India by The Times of India.</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Internship opportunities at BMW and Honda</li>
                   <li><i class="bi bi-check-circle-fill"></i> World-class AI & ML lab for future-proof learning</li>
                   <li><i class="bi bi-check-circle-fill"></i> Synergy Tech-fest Platform for Innovation Showcase</li>
                   <li><i class="bi bi-check-circle-fill"></i> Startup Support through Govt.-backed Initiatives</li>
@@ -497,8 +495,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Popular Courses</h2>
-        <p class="text-dark">Pick A Course To Get Started</p>
+        <h2>List of Courses</h2>
+        <!-- <p class="text-dark">Pick A Course To Get Started</p> -->
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -542,7 +540,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="card h-100">
                     <img src="assets/img/BBA.png" class="card-img-top" alt="btech">
                     <div class="card-body">
-                      <h6 class="card-title custom-title"><i class="fa fa-graduation-cap"></i> Bachelor of Business Administration</h6>
+                      <h6 class="card-title custom-title"><i class="fa fa-graduation-cap"></i> BCA (AI & ML): Bachelor of Computer Application in Artificial Intelligence & Machine Learning</h6>
                       <!--<h6 class="card-title custom-title"><i class="fa fa-hourglass-half"></i>
                         Duration
                         :- 4 Years</p>
@@ -557,7 +555,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="card h-100">
                     <img src="assets/img/commerce.png" class="card-img-top" alt="dpharma">
                     <div class="card-body">
-                      <h6 class="card-title custom-title"><i class="fa fa-graduation-cap"></i> Bachelor of Commerce (Honours)</h6>
+                      <h6 class="card-title custom-title"><i class="fa fa-graduation-cap"></i> BCA (Cloud): Bachelor of Computer Application in Cloud Computing</h6>
                      <!-- <h6 class="card-title custom-title"><i class="fa fa-hourglass-half"></i> Duration
                         :- 4 Years</p>
                       </h6>-->
@@ -581,7 +579,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="card h-100">
                   <img src="assets/img/Diploma.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h6 class="card-title custom-title"><i class="fa fa-graduation-cap"></i> Diploma in Business Administration</h6>
+                    <h6 class="card-title custom-title"><i class="fa fa-graduation-cap"></i> BCA (Cyber): Bachelor of Computer Application in Cybersecurity</h6>
                     <!--<h6 class="card-title custom-title"><i class="fa fa-hourglass-half"></i> Duration
                       :- 1 Year</p>
                     </h6>-->
@@ -595,7 +593,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="card h-100">
                   <img src="assets/img/advancediploma.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h6 class="card-title custom-title"><i class="fa fa-graduation-cap"></i> Advance Diploma in Business Administration </h6>
+                    <h6 class="card-title custom-title"><i class="fa fa-graduation-cap"></i> BCA (Web): Bachelor of Computer Application in Web Development </h6>
+                    <!--<h6 class="card-title custom-title"><i class="fa fa-hourglass-half"></i> Duration
+                      :- 2 Years</p>
+                    </h6>-->
+                    <div class="d-flex justify-content-center align-items-center ">
+                      <a href="#" class="custom-btn">Apply Now <i class="fa fa-paper-plane"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="assets/img/advancediploma.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title custom-title"><i class="fa fa-graduation-cap"></i> BCA (Data): Bachelor of Computer Application in Data Science </h6>
                     <!--<h6 class="card-title custom-title"><i class="fa fa-hourglass-half"></i> Duration
                       :- 2 Years</p>
                     </h6>-->
@@ -718,7 +730,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- /Features Cards Section -->
 
     <div class="recruiters-container text-center" style="padding-top: 30px; margin-top: 30px; margin-bottom: 30px;">
-        <h2 class="mb-4">Our Graduates Work At</h2>
+        <h2 class="mb-4" style="font-weight: 800;">Our Graduates Work At</h2>
         <div class="swiper mySwiper mt-5">
             <div class="swiper-wrapper">
                 <div class="swiper-slide custom-slide"><img src="assets/img/placements/accenture.webp" alt="Company 1"></div>
@@ -737,6 +749,171 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>
 
+
+  <div class="container-fluid my-5">
+    <h2 class="text-center mb-4" style="font-weight: 800;">BCA Programs & Specializations</h2>
+    <div class="accordion" id="bcaAccordion">
+
+      <!-- BCA AI & ML -->
+<div class="accordion" id="bcaAccordion">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingAI">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAI"
+        aria-expanded="true" aria-controls="collapseAI" id="firstAccordionBtn">
+        BCA (AI & ML): Bachelor of Computer Application in Artificial Intelligence & Machine Learning
+      </button>
+    </h2>
+    <div id="collapseAI" class="accordion-collapse collapse show" aria-labelledby="headingAI"
+      data-bs-parent="#bcaAccordion">
+      <div class="accordion-body">
+        <div class="row">
+          <div class="col-lg-8">
+            <p><strong>Duration:</strong> 6 semesters</p>
+            <p><strong>Fees:</strong> ₹75,000 per semester</p>
+                <p><strong>Focus:</strong> Machine Learning, Deep Learning, Neural Networks, NLP, AI Automation, Big Data Analytics, Predictive Modeling, Computer Vision.</p>
+                <p><strong>Career Prospects:</strong> AI Engineer, Machine Learning Engineer, Data Scientist, Robotics Engineer, NLP Engineer</p>
+                <p><strong>Program Highlights:</strong></p>
+                <ul>
+                  <li>Covers machine learning, deep learning, and neural networks for intelligent automation.</li>
+                  <li>Focuses on AI-driven data processing, predictive analytics, and automation.</li>
+                  <li>Prepares students for careers in AI development, robotics, and data science.</li>
+            <!-- your content -->
+          </div>
+          <div class="col-lg-4 text-center mt-4 mt-lg-0">
+            <img src="assets/img/ai.webp" alt="AI & ML" class="program-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- BCA Cloud -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingCloud">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCloud">
+            BCA (Cloud): Bachelor of Computer Application in Cloud Computing
+          </button>
+        </h2>
+        <div id="collapseCloud" class="accordion-collapse collapse" data-bs-parent="#bcaAccordion">
+          <div class="accordion-body">
+          <div class="row">
+            <div class="col-lg-8">
+              <p><strong>Duration:</strong> 6 semesters</p>
+              <p><strong>Fees:</strong> ₹75,000 per semester</p>
+              <p><strong>Focus:</strong> Cloud Infrastructure, Virtualization, Cloud Security, DevOps, Containerization, Serverless Computing, Microservices, Automation.</p>
+              <p><strong>Career Prospects:</strong> Cloud Engineer, DevOps Engineer, Cloud Security Specialist, Cloud Architect, System Administrator</p>
+              <p><strong>Program Highlights:</strong></p>
+              <ul>
+                <li>Hands-on experience with AWS, Azure, and Google Cloud.</li>
+                <li>Covers cloud security, virtualization, and distributed computing.</li>
+                <li>Equips students for roles in cloud architecture and infrastructure management.</li>
+              </ul>
+            </div>
+            <!-- Image Column -->
+            <div class="col-lg-4 text-center mt-4 mt-lg-0">
+              <img src="assets/img/cloud.webp" alt="AI & ML" class="program-image">
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BCA Cybersecurity -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingCyber">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCyber">
+            BCA (Cyber): Bachelor of Computer Application in Cybersecurity
+          </button>
+        </h2>
+        <div id="collapseCyber" class="accordion-collapse collapse" data-bs-parent="#bcaAccordion">
+          <div class="accordion-body">
+          <div class="row">
+            <div class="col-lg-8">
+              <p><strong>Duration:</strong> 6 semesters</p>
+              <p><strong>Fees:</strong> ₹75,000 per semester</p>
+              <p><strong>Focus:</strong> Ethical Hacking, Network Security, Cryptography, Digital Forensics, Malware Analysis, Risk Assessment, Cybersecurity Compliance.</p>
+              <p><strong>Career Prospects:</strong> Cybersecurity Analyst, Ethical Hacker, Information Security Analyst, Forensic Analyst, Risk & Compliance Officer</p>
+              <p><strong>Program Highlights:</strong></p>
+              <ul>
+                <li>Training in ethical hacking, cryptography, and cyber threat analysis.</li>
+                <li>Focus on digital forensics, risk management, and network security.</li>
+                <li>Prepares for careers in cybersecurity consulting and compliance.</li>
+              </ul>
+            </div>
+            <!-- Image Column -->
+            <div class="col-lg-4 text-center mt-4 mt-lg-0">
+              <img src="assets/img/cyber.webp" alt="AI & ML" class="program-image">
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BCA Web Development -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingWeb">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWeb">
+            BCA (Web): Bachelor of Computer Application in Web Development
+          </button>
+        </h2>
+        <div id="collapseWeb" class="accordion-collapse collapse" data-bs-parent="#bcaAccordion">
+          <div class="accordion-body">
+          <div class="row">
+            <div class="col-lg-8">
+              <p><strong>Duration:</strong> 6 semesters</p>
+              <p><strong>Fees:</strong> ₹75,000 per semester</p>
+              <p><strong>Focus:</strong> Front-end (HTML, CSS, JavaScript), Back-end (Node.js, PHP, Python), UI/UX, Responsive Design, Web Security, API Integration.</p>
+              <p><strong>Career Prospects:</strong> Front-End Developer, Back-End Developer, Full-Stack Developer, UI/UX Designer, Web Application Developer</p>
+              <p><strong>Program Highlights:</strong></p>
+              <ul>
+                <li>Covers front-end and back-end technologies.</li>
+                <li>Teaches UI/UX design and responsive web development.</li>
+                <li>Prepares students for full-stack development and web security roles.</li>
+              </ul>
+            </div>
+            <!-- Image Column -->
+            <div class="col-lg-4 text-center mt-4 mt-lg-0">
+              <img src="assets/img/web-dev.webp" alt="AI & ML" class="program-image">
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BCA Data Science -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingData">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseData">
+            BCA (Data): Bachelor of Computer Application in Data Science
+          </button>
+        </h2>
+        <div id="collapseData" class="accordion-collapse collapse" data-bs-parent="#bcaAccordion">
+          <div class="accordion-body">
+          <div class="row">
+            <div class="col-lg-8">
+              <p><strong>Duration:</strong> 6 semesters</p>
+              <p><strong>Fees:</strong> ₹75,000 per semester</p>
+              <p><strong>Focus:</strong> Data Analytics, Statistical Modeling, Machine Learning, Big Data, Visualization (Tableau, Power BI), SQL, Predictive Analytics.</p>
+              <p><strong>Career Prospects:</strong> Data Analyst, Data Scientist, BI Analyst, Big Data Engineer, Market Research Analyst</p>
+              <p><strong>Program Highlights:</strong></p>
+              <ul>
+                <li>Focus on big data analytics and machine learning techniques.</li>
+                <li>Training in Python, R, SQL, Tableau, and Power BI.</li>
+                <li>Prepares students for data-driven decision-making careers.</li>
+              </ul>
+            </div>
+            <!-- Image Column -->
+            <div class="col-lg-4 text-center mt-4 mt-lg-0">
+              <img src="assets/img/data-science.webp" alt="AI & ML" class="program-image">
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
     <!-- Call To Action Section -->
     <br><br>
@@ -832,18 +1009,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="feature-list">
                   <li> IBM Innovation Centre for Education (AI & Blockchain)</li>
                   <li> Apple Development Centre (iOS)</li>
-                  <li> SMC Pneumatics Centre of Excellence (Automation)</li>
-                  <li> Electric Vehicle Lab (with Electric One Mobility Pvt. Ltd.)</li>
-                  <li> IC Engine Testing Lab (with Honda Motors)</li>
                   <li> NVIDIA-Powered Computing Lab</li>
-                  <li> Geo-Spatial Research Lab</li>
                 </ul>
           <!-- <center> <a href="#" class="btn">Enquire Now <i class="fa fa-arrow-circle-right"></i></a>
           </center> -->
         </div>
         <!-- Image Section -->
         <div class="col-md-6 cta-image">
-          <img src="assets/img/CT-Campus-1687340015.jpg" class="w-100" alt="Student with Laptop">
+          <img src="assets/img/labs.webp" class="w-100" alt="Student with Laptop">
         </div>
       </div>
     </div>
@@ -997,9 +1170,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="faq-container" align="justify">
 
               <div class="faq-item faq-active">
-                <h3>What engineering programs does SGT University offer?</h3>
+                <h3>Does SGT University offer BCA programs?</h3>
                 <div class="faq-content">
-                  <p>B.Tech, BCA, MCA, M.Tech, and PhD programs across 4 departments - Computer Science, Mechanical, Civil, and Electronics Engineering</p>
+                  <p>Yes, SGT University offers BCA programs across 5 major specialisations – AI & ML, Cloud Computing, Cybersecurity, Web Development, and Data Science</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -1013,14 +1186,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>What are the eligibility criteria for admission?</h3>
+                <h3>What are the eligibility criteria for BCA admission?</h3>
                 <div class="faq-content">
-                  <p>General Eligibility (For All B.Tech Programs)</p>
-                  <ul>
-                    <li>10+2 with Physics, Chemistry, and Mathematics (PCM) as compulsory subjects.</li>
-                    <li>Minimum 45% marks (40% for reserved category candidates).</li>
-                    <li>Candidates must have passed from a recognized board.</li>
-                  </ul>
+                  <p>Must have cleared your 10+2 exams by a minimum of 45% (english as a mandatory subject)</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -1265,6 +1433,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="assets/aos/2.3.4/aos.js"></script>
     <script src="assets/bootstrap%405.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Ensure first accordion button doesn't have .collapsed
+        const firstBtn = document.getElementById("firstAccordionBtn");
+        firstBtn.classList.remove("collapsed");
+
+        // Make sure aria-expanded is "true"
+        firstBtn.setAttribute("aria-expanded", "true");
+      });
+    </script>
     <script>
       var swiper = new Swiper(".mySwiper", {
           slidesPerView: 6,
